@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-section {
+    margin: 0px 50px;
+}
+
+.head {
+    height: 50px;
+    background-color: blue;
+    padding: 0px 10px;
+}
+
+.head h1 {
+    color: whitesmoke;
+    line-height: 50px;
+}
+
+.news-section {
+    display: flex;
+}
+
+.left-section {
+    width: 40%;
+    margin-top: 10px;
+    border-right:1px solid grey;
+}
+
+
+.heading {
+    font-size: 40px;
+}
+
+.sub-heading {
+    font-size: 28px;
+    color: grey;
+}
+
+.content {
+    font-size: 16px;
+    color: darkcyan;
+}
+
+.mid-section {
+    width: 20%;
+
+
+}
+
+.right-section {
+    width: 40%;
+}
+
+hr {
+    margin: 10px;
+}
+
+
+/* 
+1.0.1
+1.0.2
+1.0.6
+2.0.1 
+*/
