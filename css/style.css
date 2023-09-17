@@ -4,68 +4,75 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Times New Roman', Times, serif;
+header {
+    display: flex;
+    padding: 16px 75.95px;
+    justify-content: space-between;
 }
 
-.main-section {
-    margin: 0px 50px;
+header .nav-left img {
+    width: 120px;
+    height: 23px;
+    padding-right: 18px;
 }
 
-.head {
-    height: 50px;
-    background-color: blue;
-    padding: 0px 10px;
-}
-
-.head h1 {
-    color: whitesmoke;
-    line-height: 50px;
-}
-
-.news-section {
+.nav-left {
     display: flex;
 }
 
-.left-section {
-    width: 40%;
-    margin-top: 10px;
-    border-right:1px solid grey;
+.nav-left ul {
+    display: flex;
 }
 
-
-.heading {
-    font-size: 40px;
+.nav-right ul {
+    display: flex;
 }
 
-.sub-heading {
-    font-size: 28px;
-    color: grey;
+.nav-left ul,
+.nav-right ul {
+    list-style: none;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.content {
-    font-size: 16px;
-    color: darkcyan;
+.nav-left ul li,
+.nav-right ul li {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    line-height: 13px;
 }
 
-.mid-section {
-    width: 20%;
-
-
+.nav-left ul li a,
+.nav-right ul li a {
+    text-decoration: none;
+    color: black;
 }
 
-.right-section {
-    width: 40%;
+.nav-right ul li .bx {
+    font-size: 13px;
 }
 
-hr {
-    margin: 10px;
+.nav-right ul li:last-child {
+    padding-right: 20px;
+    border: 1px solid black;
+    height: 28px;
+    width: 26px;
+    border-radius: 50%;
+    padding-top: 6px;
 }
 
+.nav-main ul li:first-child{
+font-size: 25px;
+}
 
-/* 
-1.0.1
-1.0.2
-1.0.6
-2.0.1 
-*/
+/* .nav-main ul li:nth-child(odd){
+    font-size: 25px;  
+} */
+/* .nav-main ul li:nth-child(even){
+    font-size: 25px;  
+} */
+
+/* .nav-main ul li:nth-child(2n+2){
+    font-size: 25px;  
+} */
